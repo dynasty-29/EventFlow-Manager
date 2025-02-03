@@ -14,7 +14,7 @@ const NotificationBell = ({ daysRemaining }) => {
             <LuBellRing color={bellColor} size={44} />
             {daysRemaining <= 3 && (
                 <span className="notification-text">
-                    {daysRemaining === 0 ? "Today is the event!" : `${daysRemaining} days left!`}
+                    {daysRemaining === 0 ? "Today is the event!" : ${daysRemaining} days left!}
                 </span>
             )}
         </div>
